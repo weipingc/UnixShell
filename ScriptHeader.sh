@@ -28,7 +28,7 @@ trap exit_shell EXIT
 # Starting shell scripts with set -e is considered a best practice
 # https://stackoverflow.com/questions/6930295/set-e-and-short-tests
 
-# Overrwrite EXIT_MSG or function exit_shell to customize.
+# Overrwrite EXIT_MSG or function exit_action to customize.
 
 # https://stackoverflow.com/questions/5312266/how-to-trap-exit-code-in-bash-script
 # https://stackoverflow.com/questions/11193466/echo-without-newline-in-a-shell-script
